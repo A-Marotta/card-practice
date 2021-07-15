@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html, body {
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 15px 5px #AAAAAA; 
+    box-shadow: 5px 5px 15px 5px #AAAAAA;
+}
+
+.card-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-body .img-spec {
+    font-size: 44px;
+    color: gray;
+}
+
+.poop-png {
+    height: 25px;
+    width: 25px;
+}
+
+.poop-wrapper {
+    top: 4px;
+    right: 4px;
+}
+
+
+
+.desc-wrapper, .poop-wrapper { 
+    position: absolute;
+}
+
+.desc-wrapper {
+    bottom: 0;
+    right: 0;
+    padding: 4px;
+}
+
+.img-description {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.user,
+.plus,
+.timestamp {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-picture {
+    height: 25px;
+    width: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.username {
+    padding-left: 4px;
+}
+
+.plus,
+.timestamp {
+    display: flex;
+    align-items: center;
+}
+
+.card-body {
+    height: 400px;
+    width: 400px;
+    background-color: #b1b1b1;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-title {
+    margin-bottom: 0;
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+.food-description {
+    margin-top: 0;
+    font-size: 20px;
+    color: gray;
+}
+
+.food-title,
+.food-description,
+.left {
+    padding-left: 12px;
+}
+
+.right {
+    padding-right: 12px;
+}
+
+.left,
+.right {
+    padding-bottom: 6px;
+    font-size: 18px;
+}
